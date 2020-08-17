@@ -7,6 +7,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+/**
+ * @author Riky
+ * @since
+ */
+
 public class MainActivity extends AppCompatActivity {
     private Button playButton;
     @Override

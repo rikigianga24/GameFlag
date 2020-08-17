@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_centerInParent="true"
+    android:background="#C2AFE3"
 
     android:padding="16dp"
     android:paddingLeft="16dp"
@@ -20,58 +21,91 @@
 
         <ImageView
             android:id="@+id/flag"
-            android:layout_width="140dp"
-            android:layout_height="140dp"
-            android:layout_marginLeft="94dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
             android:layout_marginTop="1dp"
-            android:layout_marginRight="94dp"
             android:layout_marginBottom="1dp"
-            app:srcCompat="@drawable/picflag" />
+            app:srcCompat="@drawable/f_italia" />
     </RelativeLayout>
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_below="@+id/layout_front"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="56dp"
-        android:orientation="horizontal">
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#8648F4"
+        android:clickable="false"
+        android:saveEnabled="false">
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Button" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Button" />
-    </LinearLayout>
+            <Button
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/layout_front"
-        android:layout_marginTop="162dp"
-        android:orientation="horizontal">
+                android:id="@+id/answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_game_background"
+                android:clickable="true"
+                android:text="Button"
+                android:textColor="#7C4DFF"
+                android:textSize="15sp" />
 
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Button" />
+            <Button
 
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Button" />
-    </LinearLayout>
+                android:id="@+id/answer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_game_background"
+                android:clickable="true"
+                android:text="Button"
+                android:textColor="#7C4DFF"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="70dp"
+            android:orientation="horizontal">
+
+            <Button
+
+                android:id="@+id/answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_game_background"
+                android:clickable="true"
+                android:text="Button"
+                android:textColor="#7C4DFF"
+                android:textSize="15sp" />
+
+            <Button
+
+                android:id="@+id/answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_game_background"
+                android:clickable="true"
+                android:text="Button"
+                android:textColor="#7C4DFF"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
 </RelativeLayout>
