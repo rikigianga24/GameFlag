@@ -14,6 +14,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
     private Button playButton;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +28,10 @@ public class MainActivity extends AppCompatActivity {
                 openGameActivity();
             }
         });
+
+
     }
+
 
     public void openGameActivity(){
         Intent intent = new Intent(getApplicationContext(), ActivityGame.class);

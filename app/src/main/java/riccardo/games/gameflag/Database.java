@@ -60,4 +60,36 @@ public class Database {
             "vaticano",
 
     };
+
+    /**
+     * Capitali una futura funzione
+     */
+    String[] capitals = {
+            "Canberra",
+            "Ottawa",
+            "Amsterdam",
+            "Roma",
+            "Astana",
+            "Londra",
+            "Havana",
+            "Thimphu",
+            "Yamoussoukro",
+            "Helsinki",
+            "Parigi",
+            "Erevan",
+            "Tbilisi",
+            "Biškek",
+            "Tarawa",
+            "Pristina",
+            "Beirut",
+            "Ulan Bator",
+            "Varsavia",
+            "Apia",
+            "Castries",
+            "Freetown",
+            "Mogadiscio",
+            "Paramaribo",
+            "Stoccolma",
+            "Città del Vaticano"
+    };
 }
